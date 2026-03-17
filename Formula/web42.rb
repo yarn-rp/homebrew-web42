@@ -1,22 +1,22 @@
 class Web42 < Formula
   desc "CLI for the Web42 Agent Marketplace"
   homepage "https://web42.ai"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yarn-rp/web42-marketplace/releases/download/cli/v0.1.9/web42-darwin-arm64"
-      sha256 "7e928f9950e89a7a2a08ae1f885321e13d56153f2dad9152bd1408fe454db1d8"
+      url "https://github.com/yarn-rp/web42-marketplace/releases/download/cli/v0.1.10/web42-darwin-arm64"
+      sha256 "00cc6190f9d4f60b2ee22c41073238ce52cadc28f8d3823b89020ad7e88b6cad"
     else
-      url "https://github.com/yarn-rp/web42-marketplace/releases/download/cli/v0.1.9/web42-darwin-x64"
-      sha256 "8996a39404692b998611e1c21bd59cfd7a19322f43e608ac979e40337278c238"
+      url "https://github.com/yarn-rp/web42-marketplace/releases/download/cli/v0.1.10/web42-darwin-x64"
+      sha256 "a0ea80e0a84ccaac33fa5ae171d9368c864ebd41102a9a34862f9bbe9660a417"
     end
   end
 
   on_linux do
-    url "https://github.com/yarn-rp/web42-marketplace/releases/download/cli/v0.1.9/web42-linux-x64"
-    sha256 "e3120757a3f1eef1bcad33042cf5f94bb79e87beb9748b79c6e30e9a598537e8"
+    url "https://github.com/yarn-rp/web42-marketplace/releases/download/cli/v0.1.10/web42-linux-x64"
+    sha256 "b2f8bcf2b67eae550a25f0b473c736612bbe1406aa83d8e994e9c12b73f721e3"
   end
 
   def install
